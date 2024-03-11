@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+  
+:root{
+    --corprincipal: #F0F0F0;
+    --corsecundaria: #4F709C;
+    --cortitulo: #213555;   
+}
+
+body{
+    background: var(--corsecundaria);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Madimi One", sans-serif;
+
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    
+}
+
+.cabecalho h1{
+    color: var(--cortitulo);
+}
+
+.cabecalho img{
+    max-width: 80px;
+    max-height: 80px;
+    width: auto;
+    height: auto;
+}
+
+.container-input{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
+    color: var(--corprincipal);
+}
+
+.container-input .input{
+    width: 400px;
+    height: 330px;
+    
+}
+
+#input-texto{
+    width: 345px;
+    height: 330px;
+    font-size: 20px;
+    color: var(--corprincipal);
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+#output{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid var(--cortitulo);
+    border-radius: 20px;
+    width: 300px;
+    height: 430px;
+    margin-right: 3%;
+}
+
+#output h2{
+    text-align: center;
+    font-size: 25px;
+    color: var(--cortitulo);
+}
+
+#output span{
+    font-size: 16px;
+    text-align: center;
+}
+
+#output img{
+    max-width: 300px;
+    max-width: 300px;
+    width: auto;
+    height: auto;
+    margin-top: 4%;
+    border: none;
+}
+
+.container-btn button{
+    border: 2px solid var(--cortitulo);
+    border-radius: 10px;
+    text-decoration: none;
+    color: #010916;
+    width: 150px;
+    height: 50px;
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+.btn-copiar{
+    border: 2px solid var(--cortitulo);
+    border-radius: 10px;
+    text-decoration: none;
+    color: #010916;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer; 
+}
+
+.container-btn button:hover{
+    border: 3px solid var(--corsecundaria);
+    transition: 0.2s all;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 15px;
+    background: var(--cortitulo);
+    color: var(--corprincipal);
+}
+
+.rodape h3 {
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--corsecundaria);
+   
+}
+
+.icons ion-icon{
+    width: 25px;
+    height: 25px;
+    color: var(--corprincipal);
+}
+
+.icons ion-icon:hover{
+    color: var(--corsecundaria);
+}
